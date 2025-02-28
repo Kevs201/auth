@@ -3,7 +3,6 @@ import { assets } from '../assets/assets'
 import { AppContext } from '../context/AppContext.jsx'
 
 const Header = () => {
-  axios.defaults.withCredentials =true;
   
   const {userData} = useContext(AppContext) 
 
