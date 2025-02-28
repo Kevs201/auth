@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Navbar from '../components/navbar'
-import Header from '../components/Header'
+import Navbar from '../components/navbar.js'
+import Header from '../components/Header.js'
 
 const Home = () => {
   return (
